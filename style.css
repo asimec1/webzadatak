@@ -53,13 +53,63 @@ figure
 	margin: 8px 8px 8px 0px; 
 	padding: 8px; 
 	outline-style: solid; 
-	width: 50%; 
-	min-width: 300px;
 }
 
 figure > img
 {
 	width: 100%;
+}
+
+figcaption
+{
+	font-size: 18px;
+}
+
+h1
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a
+{
+	text-decoration: none;
+	color: Green;
+}
+
+label
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+video
+{
+	float: left;
+	margin: 8px;
+}
+
+.galerija
+{
+	float: left;
+	width: 100%;
+}
+
+.galerija > figure
+{
+	float: left;
+}
+
+.galerijskaSlika
+{
+	width: 272px;
+	height: 272px;
 }
 
 .previews
@@ -86,18 +136,24 @@ figure > img
 	margin-right: 16px;
 }
 
-.preview > a
+preview > figure
+{
+	width: 50%; 
+	min-width: 300px;
+}
+
+/*.preview > a
 {
 	text-decoration: none;
 	color: Green;
-}
+}*/
 
 .preview > a:visited
 {
 	color: DarkGreen
 }
 
-.preview > h2
+.preview > h1
 {
 	width: auto;
 	font-size: 22px; 
@@ -121,6 +177,21 @@ figure > img
 	color: DarkGreen;
 	font-family: sans-serif;
 }
+
+.listaslika
+{
+	overflow: scroll;
+	height: 214px;
+}
+
+.listaslika > img
+{
+	float: left;
+	width: 196px;
+	height: 196px;
+	margin: 8px;
+}
+
 
 footer
 {
